@@ -14,6 +14,20 @@ flutter --> general_schema
 general_schema --> general_lib 
 general_lib --> ffi_universe
 general_lib --> io_universe
+general_lib --> general_framework
+general_lib_flutter --> general_framework
+general_system_device --> general_framework
+
+ffi_universe --> database_universe
+io_universe --> database_universe
+
+ffi_universe --> media_universe
+io_universe --> media_universe
+
+ffi_universe --> general_system_device
+io_universe --> general_system_device
+
+
 ffi_universe --> ggml_library
 io_universe --> ggml_library
 
@@ -21,7 +35,10 @@ io_universe --> ggml_library
 ggml_library --> llama_library
 ggml_library --> whisper_library
 ggml_library --> stable_diffusion_library
+
 llama_library --> outetts
+
+
 
 ggml_library[<a href="https://github.com/General-Developer/ggml_library" style="text-decoration:none;">ggml_library</a>];
 
