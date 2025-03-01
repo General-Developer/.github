@@ -57,6 +57,24 @@ whisper_library --> Minimal_Stack_Developer
 outetts --> Minimal_Stack_Developer
 outetts --> stable_diffusion_library
 
+general_ai_library --> closesource
+
+general_framework --> closesource
+
+closesource --> General_Corporation
+General_Corporation --> General_Bot
+closesource --> Global_Corporation
+Global_Corporation --> General_Corporation
+General_Corporation --> General_Developer
+General_Corporation --> General_Bot
+General_Corporation --> General_Developer
+General_Corporation --> General_Public
+General_Corporation --> Nextgifto
+General_Corporation --> Spectaa
+closesource --> General_Developer
+closesource --> General_Public
+closesource --> Nextgifto
+closesource --> Specta
 
 ggml_library[<a href="https://github.com/General-Developer/ggml_library" style="text-decoration:none;">ggml_library</a>];
 
