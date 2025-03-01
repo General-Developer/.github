@@ -49,6 +49,15 @@ azkadev --> Minimal_Telegram
 whisper_library --> Minimal_Telegram
 outetts --> Minimal_Telegram
 
+azkadev --> Minimal_Share
+
+azkadev --> Minimal_Stack_Developer
+
+whisper_library --> Minimal_Stack_Developer
+outetts --> Minimal_Stack_Developer
+outetts --> stable_diffusion_library
+
+
 ggml_library[<a href="https://github.com/General-Developer/ggml_library" style="text-decoration:none;">ggml_library</a>];
 
 llama_library[<a href="https://github.com/General-Developer/llama_library" style="text-decoration:none;">llama_library</a>];
