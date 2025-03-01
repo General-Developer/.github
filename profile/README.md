@@ -3,7 +3,15 @@
 
 ```mermaid
 graph TD;
-general_schema --> ggml_library
+global-corporation --> general-schema
+global-corporation --> general-corporation --> general-schema
+general-schema --> general-developer 
+general-developer --> project-library
+project-library --> dart
+project-library --> flutter
+
+dart --> ggml_library
+flutter --> ggml_library
 ggml_library --> llama_library
 ggml_library --> whisper_library
 ggml_library --> stable_diffusion_library
