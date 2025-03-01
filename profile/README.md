@@ -11,6 +11,15 @@ llama_library --> outetts
 
 ggml_library[<a href="https://github.com/General-Developer/ggml_library" style="text-decoration:none;">ggml_library</a>];
 
+llama_library[<a href="https://github.com/General-Developer/llama_library" style="text-decoration:none;">llama_library</a>];
+
+outetts[<a href="https://github.com/General-Developer/outetts" style="text-decoration:none;">outetts</a>];
+
+whisper_library[<a href="https://github.com/General-Developer/whisper_library" style="text-decoration:none;">whisper_library</a>];
+
+stable_diffusion_library[<a href="https://github.com/General-Developer/stable_diffusion_library" style="text-decoration:none;">stable_diffusion_library</a>];
+
+
 ```
 
 
