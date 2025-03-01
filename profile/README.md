@@ -18,6 +18,8 @@ general_lib --> general_framework
 general_lib_flutter --> general_framework
 general_system_device --> general_framework
 
+media_universe --> general_system_device
+
 ffi_universe --> database_universe
 io_universe --> database_universe
 
@@ -38,7 +40,14 @@ ggml_library --> stable_diffusion_library
 
 llama_library --> outetts
 
+general_framework --> opensource
 
+opensource --> azkadev
+
+azkadev --> Minimal_Telegram
+
+whisper_library --> Minimal_Telegram
+outetts --> Minimal_Telegram
 
 ggml_library[<a href="https://github.com/General-Developer/ggml_library" style="text-decoration:none;">ggml_library</a>];
 
