@@ -74,6 +74,8 @@ Global_Corporation --> General_Corporation
 General_Corporation --> General_Developer
 General_Corporation --> General_Bot
 General_Corporation --> General_Developer
+General_Corporation --> General_Studio_Developer
+General_Corporation --> General_Studio
 General_Corporation --> General_Public
 General_Corporation --> Nextgifto
 General_Corporation --> Specta
