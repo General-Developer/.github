@@ -9,9 +9,15 @@ general-schema --> general-developer
 general-developer --> project-library
 project-library --> dart
 project-library --> flutter
+dart --> general_schema
+flutter --> general_schema
+general_schema --> general_lib 
+general_lib --> ffi_universe
+general_lib --> io_universe
+ffi_universe --> ggml_library
+io_universe --> ggml_library
 
-dart --> ggml_library
-flutter --> ggml_library
+
 ggml_library --> llama_library
 ggml_library --> whisper_library
 ggml_library --> stable_diffusion_library
