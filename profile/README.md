@@ -78,6 +78,8 @@ General_Corporation --> General_Public
 General_Corporation --> Nextgifto
 General_Corporation --> Specta
 closesource --> General_Developer
+closesource --> Coinlox
+closesource --> Ads_Gateway
 closesource --> General_Public
 closesource --> Nextgifto
 closesource --> Specta
