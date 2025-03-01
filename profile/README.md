@@ -82,6 +82,12 @@ closesource --> General_Public
 closesource --> Nextgifto
 closesource --> Specta
 
+general-developer --> azkadev
+
+general-developer --> AzielAaravHarish
+general-developer --> ClarissaGazalaEvanthe
+general-developer --> AegizTyreseValfredo
+
 ggml_library[<a href="https://github.com/General-Developer/ggml_library" style="text-decoration:none;">ggml_library</a>];
 
 llama_library[<a href="https://github.com/General-Developer/llama_library" style="text-decoration:none;">llama_library</a>];
