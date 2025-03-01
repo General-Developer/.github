@@ -70,7 +70,7 @@ General_Corporation --> General_Bot
 General_Corporation --> General_Developer
 General_Corporation --> General_Public
 General_Corporation --> Nextgifto
-General_Corporation --> Spectaa
+General_Corporation --> Specta
 closesource --> General_Developer
 closesource --> General_Public
 closesource --> Nextgifto
