@@ -1,3 +1,19 @@
+# General Developer
+
+
+```mermaid
+graph TD;
+general_schema --> ggml_library
+ggml_library --> llama_library
+ggml_library --> whisper_library
+ggml_library --> stable_diffusion_library
+llama_library --> outetts
+
+ggml_library[<a href="https://github.com/General-Developer/ggml_library" style="text-decoration:none;">ggml_library</a>];
+
+```
+
+
 Actually in this world there are many crazy people, one of them is a developer, yes all developers are good but they don't understand a little about what a library is and why they make a library,
 
 for us a library is a script that is specially designed to make it easier for people to develop a program, but many crazy developers don't know the basic meaning of the library
